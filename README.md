@@ -8,7 +8,7 @@ All the files have been uploaded to the Github repository
 
 ## Question 1: Data Modelling
 
-I have used [lucidchart.com](https://www.lucidchart.com/) to design the [ER diagram](https://github.com/vinay-kaushik/FetchRewards-Assessment/blob/master/Database%20ER%20diagram%20Fetch%20Rewards.png).
+I have used [lucidchart.com](https://www.lucidchart.com/) to design the [ER diagram](https://github.com/vinay-kaushik/fetchRewards-DataAnalyst/blob/master/Database%20ER%20diagram%20Fetch%20Rewards.jpg).
 
 I have received 3 files.
 1. users.json
@@ -28,7 +28,7 @@ I have done questions 2 and 3 simultaneously, by following the process below.
 3. Analysed the data which will be discussed in the next section.
 4. Converted the dataframes into csv files and dumped the csv files into database using MySQL Workbench
 
-You can find the queries in the [queries.sql](https://github.com/vinay-kaushik/FetchRewards-Assessment/blob/master/queries.sql) file in the repository
+You can find the queries in the [queries.sql](https://github.com/vinay-kaushik/fetchRewards-DataAnalyst/blob/master/queries.sql) file in the repository
 
 For the second question, I have created views and compared the data.
 
@@ -77,7 +77,7 @@ select * from cur_month_rank cur,prev_month_rank prev where cur.name=prev.name;
 ```
 
 ## Question 3: Checking Data Quality Issue using Python
-I have created a [notebook](https://github.com/vinay-kaushik/FetchRewards-Assessment/blob/master/FetchRewards.ipynb) that would take in the files and convert the JSON files to Dataframes and later convert it into csv files.
+I have created a [notebook](https://github.com/vinay-kaushik/fetchRewards-DataAnalyst/blob/master/FetchRewards.ipynb) that would take in the files and convert the JSON files to Dataframes and later convert it into csv files.
 
 
 **Analysis of the data**
@@ -88,7 +88,7 @@ I have created a [notebook](https://github.com/vinay-kaushik/FetchRewards-Assess
 
 ## Question 4: Email to the stakeholders
 
-Please find the pdf to that email [here](https://github.com/vinay-kaushik/FetchRewards-Assessment/blob/master/Email-to-stakeholders.pdf)
+Please find the pdf to that email [here](https://github.com/vinay-kaushik/fetchRewards-DataAnalyst/blob/master/Email-to-stakeholders.pdf)
 
 This pdf consists of few analysis and concerns regarding the data to the business stakeholder.
 
